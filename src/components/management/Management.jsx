@@ -1,4 +1,6 @@
 import React from 'react'
+import clg1 from '../../assets/mng/cube-helix 1.png'
+import clg2 from '../../assets/mng/cube-helix 2.png'
 
 function Management() {
   return (
@@ -11,19 +13,20 @@ function Management() {
     </div>
     </div>
 
-    <div className="flex justify-center">
+    <div className="flex justify-center my-3">
       <div className=" flex items-center justify-center">
-        <div className="bg-white shadow-lg rounded-lg p-6 mx-4">
-          <img src="path/to/first-logo.png" alt="Logo" className="w-12 h-12 mb-4 mx-auto" />
-          <h2 className="text-xl font-bold mb-2 text-center">First Card</h2>
-          <span className="text-gray-700 text-center">Details about the first card</span>
+        <div className="bg-white shadow-lg shadow-grey-500/50 rounded-lg p-6 mx-4">
+          <img src={clg2} alt="Logo" className=" mb-4 mx-auto" />
+          <h2 className="text-xl font-bold mb-2 text-center">Integration ecosystem</h2>
+          <p className="text-gray-700 text-center break-words max-w-80">Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place.</p>
         </div>
       </div>
       <div className=" flex items-center justify-center">
-        <div className="bg-white shadow-lg rounded-lg p-6 mx-4">
-          <img src="path/to/second-logo.png" alt="Logo" className="w-12 h-12 mb-4 mx-auto" />
-          <h2 className="text-xl font-bold mb-2 text-center">Second Card</h2>
-          <span className="text-gray-700 text-center">Details about the second card</span>
+        <div className="bg-white shadow-lg shadow-grey-500/50 rounded-lg p-6 mx-4">
+          <img src={clg1} alt="Logo" className=" mb-4 mx-auto" />
+          <h2 className="text-xl font-bold mb-2 text-center">Goal setting and tracking</h2>
+          <p className="text-gray-700 break-words max-w-80  text-center">Define and track your goals, 
+          breaking down objectives into achievable tasks to keep your targets in sight.</p>
         </div>
       </div>
     </div>
